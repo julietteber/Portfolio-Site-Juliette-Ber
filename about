@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Juliette Ber, UX/UI Designer</title>
+</head>
+
+<body>
+<header>
+  <div class=".">
+<img src="https://via.placeholder.com/150x50?text=Logo" alt="Your Name" >
+<nav>
+  <ul>
+    <li><a href="index.html">Work</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  </div>
+</header>
+<main>
+</main>
+<footer>
+<div class="">
+  <h2>Get in touch</h2>
+  <p>
+  Do you like my work and want to discuss opportunities? Please get in touch. Call: +33 7 69 97 67 24 or Skype me at juliette.berrou. Prefer sending an email?
+</p>
+</div>
+<div class="Email">
+  <a href="mailto:juliette.berrou@gmail.com">Email me</a>
+</div>
+<div class="SM">
+  <div>
+      <!--Social Media Layout and Placeholders-->
+      <a href="LINKEDIN-URL" target="_blank">
+          <img src="http://via.placeholder.com/32x32">
+      </a>
+      <a href="TWITTER-URL" target="_blank">
+          <img src="http://via.placeholder.com/32x32">
+      </a>
+      <a href="ANOTHER-SOCIAL-LINK">
+          <img src="http://via.placeholder.com/32x32">
+      </a>
+      <a href="ANOTHER-SOCIAL-LINK">
+          <img src="http://via.placeholder.com/32x32">
+      </a>
+</div>
+<div class="Cright">
+<p>Copyright Juliette Ber 2022</p>
+</div>
+</footer>
+</body>
+
+</html>
