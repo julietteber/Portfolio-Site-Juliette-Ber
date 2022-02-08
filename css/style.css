@@ -1,0 +1,38 @@
+/*
+Colors used:
+Primary Color (Blue): #4c96cc;
+Secondary Color (Pink): #cf534a;
+*/
+
+font-family: 'Space Grotesk', sans-serif;
+body {
+  background-color: #4679cc;
+  font-family: Space Grotesk, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #cf534a;
+}
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+header {
+  background-color: #4c96cc;
+}
