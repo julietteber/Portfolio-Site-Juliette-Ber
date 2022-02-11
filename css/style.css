@@ -74,8 +74,11 @@ nav {
 .hero p {
   text-align: center;
 }
+.main h1 {
+  margin-left: 15px
+}
 .container {
-  padding: 0 15px;
+  padding: 15 15px;
 }
 #work .row {
   margin: 25px 15px; /* 25 px top and bottom, 15 left and right */
@@ -87,6 +90,7 @@ nav {
 }
 
 .contact {
+  text-align: center;
   padding: 0 15px;
   margin: 15px
 }
@@ -99,6 +103,20 @@ nav {
   border-radius: 3px;
   border-bottom: 2px solid #fffff;
   transition: 0.2s opacity;
+}
+.story {
+  margin: 0px 200px
+}
+.Skills li {
+      display: inline;
+      text-align: center;
+      padding: 40px;
+      color: #cf534a
+}
+.container {
+  column-count: 2;
+  column-width: 200px;
+
 }
 
 .button.contact {
@@ -114,6 +132,12 @@ nav {
 .social {
   padding: 0 15px;
   margin: 15px
-
-
+}
+.social li {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+}
+.about.hero {
+  text-align: center
 }
