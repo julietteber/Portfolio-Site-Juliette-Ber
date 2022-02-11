@@ -33,19 +33,61 @@ h4 {
   font-size: 1.35em;
   font-weight: 400;
 }
+.logo {
+  max-width: 100px;
+}
 header {
+  text-align: center;
   background-color: #4c96cc;
 color: #ffffff
+display:inline-block;
+  vertical-align:top;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    text-align: center;
+    padding: 40px;
+    color: #ffffff
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+#hero {
+  background-color: #ffe4c4;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+.hero h1 {
+  text-align: center;
+  margin: 0;
+  padding: 0.67em 0;
+}
+.hero p {
+  text-align: center;
+}
+
+.expertpic {
+  position: relative;
+  float: left;
 }
 
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block; /
   background-color: #4c96cc;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #fffff; /* width of the border, type, color */
+  border-bottom: 2px solid #fffff;
   transition: 0.2s opacity;
 }
 
