@@ -117,10 +117,21 @@ nav {
 .container {
   column-count: 2;
   column-width: 200px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
+.work h2 {
+  text-align: center
 
-.button.contact {
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.button {
 
   background-color: #4c96cc;
   color: #ffffff;
@@ -128,7 +139,11 @@ nav {
 
   border-radius: 3px;
   border-bottom: 2px solid #4e8e41;
-  transition: 0.2s opacity;
+  transition: 0.2s;
+  transition-property: opacity;
+}
+.button:hover {
+  opacity: 0.8;
 }
 .social {
   padding: 0 15px;
@@ -165,6 +180,70 @@ font-size: 16px;
 display: block;
 }
 }
+#about-picture {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+@keyframes color-change {
+ 0% {
+   fill: #edc655;
+ }
+
+ 50% {
+   fill: #fcffad;
+ }
+
+ 100% {
+   fill: #f76414;
+ }
+}
+
+.sun {
+ animation-duration: 4s;
+ animation-name: color-change;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: linear;
+}
+.brandenburgpic {
+  width: 100%;
+max-width: 100%;
+height: auto;
+}
+@keyframes cloud-move {
+ from {
+   transform: translate(0, 50px);
+ }
+
+ to {
+   transform: translate(200px, 50px);
+ }
+}
+
+.cloud-front {
+ animation-duration: 30s;
+ animation-name: cloud-move;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: linear;
+}p
+
+@keyframes cloud-move-reverse {
+ from {
+   transform: translate(446px, 48px);
+ }
+
+ to {
+   transform: translate(100px, 48px);
+ }
+}
+
+.cloud-back {
+ animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
 
 /* ==============================
 Large devices (1024px or larger)
